@@ -28,9 +28,4 @@ class Time:
         return self.get_time()
 
 
-time = Time(9, 30, 59)
-print(time.next_second())
-time = Time(10, 59, 59)
-print(time.next_second())
-time = Time(23, 59, 59)
-print(time.next_second())
+

@@ -19,9 +19,3 @@ class Glass:
         return f"{Glass.capacity - self.content} ml left"
 
 
-glass = Glass()
-print(glass.fill(100))
-print(glass.fill(200))
-print(glass.empty())
-print(glass.fill(200))
-print(glass.info())

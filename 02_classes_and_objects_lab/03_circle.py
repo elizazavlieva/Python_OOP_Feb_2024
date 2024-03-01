@@ -15,7 +15,3 @@ class Circle:
         return round(2 * self.pi * self.radius, 2)
 
 
-circle = Circle(10)
-circle.set_radius(12)
-print(circle.get_area())
-print(circle.get_circumference())

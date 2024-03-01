@@ -12,9 +12,3 @@ class Cup:
         result = self.size - self.quantity
         return result
 
-
-cup = Cup(100, 50)
-print(cup.status())
-cup.fill(40)
-cup.fill(20)
-print(cup.status())
