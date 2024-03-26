@@ -1,4 +1,4 @@
-from project.tennis_player import TennisPlayer
+from ex_01.tennis_player import TennisPlayer
 from unittest import TestCase, main
 
 class TennisPlayerTest(TestCase):
