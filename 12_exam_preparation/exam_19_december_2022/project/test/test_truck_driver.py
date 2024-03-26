@@ -1,4 +1,4 @@
-from project.truck_driver import TruckDriver
+from ex_01.truck_driver import TruckDriver
 from unittest import TestCase, main
 
 
